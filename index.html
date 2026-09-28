@@ -74,10 +74,6 @@
   .statement{font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,32px);color:var(--taupe);margin-top:24px;line-height:1.3;}
 
   /* Jump days */
-  .loads{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px;}
-  .load{background:var(--cream);border-radius:6px;padding:24px 22px;}
-  .load .n{font-family:'Playfair Display',serif;font-size:52px;color:var(--taupe);line-height:1.05;margin:6px 0 6px;}
-  .load p{font-size:15px;}
   .note{margin-top:28px;font-size:17px;}
 
   /* Weekend */
@@ -150,9 +146,6 @@
   @media (max-width:560px){
     body{font-size:16px;}
     .week,.cards,.cards.three{grid-template-columns:1fr;}
-    .loads{grid-template-columns:1fr;}
-    .load{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;}
-    .load .n{font-size:40px;}
     table{font-size:16px;}
     th,td{padding:14px 12px;}
     .hosts{gap:18px;}
@@ -178,8 +171,7 @@
     <p class="eyebrow">Búzios, Brazil · October 12–19, 2026</p>
     <h1>Brazil Boogie</h1>
     <hr class="rule">
-    <p class="lead">Your week in Búzios: the schedule, and how you'll get there and back.</p>
-    <span class="pill">Draft</span>
+    <p class="lead">Your week in Búzios: your schedule, and how you'll get there and back.</p>
   </div>
   <div class="hero-img" role="img" aria-label="Skydivers in freefall over the Búzios coastline"></div>
 </section>
@@ -193,15 +185,15 @@
     </div>
     <div class="week">
       <div class="day"><p class="eyebrow">Mon 12</p><h3>Arrival</h3><p>Land in Rio, van to Búzios, welcome dinner.</p></div>
-      <div class="day jump"><p class="eyebrow">Tue 13</p><h3>Jump day 1</h3><p>Safety briefing, then your first helicopter load.</p></div>
-      <div class="day jump"><p class="eyebrow">Wed 14</p><h3>Jump day 2</h3><p>Two loads, beach base camp all day.</p></div>
-      <div class="day jump"><p class="eyebrow">Thu 15</p><h3>Jump day 3</h3><p>Two more loads. Bonus-day sign-up closes.</p></div>
-      <div class="day jump"><p class="eyebrow">Fri 16</p><h3>Bonus jumps</h3><p>Optional: two more loads. Evening out together.</p></div>
-      <div class="day"><p class="eyebrow">Sat 17</p><h3>Water day</h3><p>Optional freedive and snorkel, then the beach.</p></div>
-      <div class="day"><p class="eyebrow">Sun 18</p><h3>Rest day</h3><p>Optional scuba, free day, final night at the villa.</p></div>
+      <div class="day jump"><p class="eyebrow">Tue 13</p><h3>Jump day 1</h3><p>Safety briefing, then jumping.</p></div>
+      <div class="day jump"><p class="eyebrow">Wed 14</p><h3>Jump day 2</h3><p>Jumping, then group dinner.</p></div>
+      <div class="day jump"><p class="eyebrow">Thu 15</p><h3>Jump day 3</h3><p>Jumping. Bonus-day sign-up closes.</p></div>
+      <div class="day jump"><p class="eyebrow">Fri 16</p><h3>Jump day 4</h3><p>Optional bonus jumps. Evening out together.</p></div>
+      <div class="day"><p class="eyebrow">Sat 17</p><h3>Free day</h3><p>Optional activity, weather dependent.</p></div>
+      <div class="day"><p class="eyebrow">Sun 18</p><h3>Free day</h3><p>Optional activity. Final night at the villa.</p></div>
       <div class="day"><p class="eyebrow">Mon 19</p><h3>Departure</h3><p>Check out and vans back to Rio.</p></div>
     </div>
-    <p class="legend"><span></span> Jump days</p>
+    <p class="legend"><span></span> Jump days. There's an <a href="#activities">optional activity</a> every day.</p>
   </div>
 </section>
 
@@ -213,7 +205,7 @@
       <h2>Arrival day</h2>
       <div class="timeline">
         <div><p class="eyebrow">Through the day</p><p>Land at GIG in Rio. Vans leave for Búzios in groups — see the <a href="#transport">transportation guide</a>.</p></div>
-        <div><p class="eyebrow">When you get in</p><p>Check in at the villa. A welcome gift is waiting on your bed.</p></div>
+        <div><p class="eyebrow">When you get in</p><p>Check in at the villa and settle in.</p></div>
         <div><p class="eyebrow">8:00 pm</p><p>Welcome dinner for everyone who has arrived, with a quick rundown of the week.</p></div>
       </div>
     </div>
@@ -221,30 +213,13 @@
   </div>
 </section>
 
-<!-- Jump days -->
+<!-- Friday -->
 <section>
   <div class="wrap split flip">
     <div>
-      <p class="eyebrow">Tuesday–Thursday, October 13–15</p>
-      <h2>Three jump days</h2>
-      <div class="loads">
-        <div class="load"><p class="eyebrow">Tuesday</p><p class="n">1 load</p><p>Safety briefing for every jumper first.</p></div>
-        <div class="load"><p class="eyebrow">Wednesday</p><p class="n">2 loads</p><p>Beach base camp open all day.</p></div>
-        <div class="load"><p class="eyebrow">Thursday</p><p class="n">2 loads</p><p>Last call for the Friday bonus day.</p></div>
-      </div>
-      <p class="note">Five helicopter jumps for everyone. Loads run through the day into sunset, with the beach base camp (shade, water, snacks, drinks) between them. Group dinner every night.</p>
-    </div>
-    <div class="photo"><img src="images/exit.jpg" alt="Helicopter exit over the coast" loading="lazy"></div>
-  </div>
-</section>
-
-<!-- Friday -->
-<section class="alt">
-  <div class="wrap split">
-    <div>
       <p class="eyebrow">Friday, October 16 · Optional</p>
       <h2>Bonus jump day</h2>
-      <p class="statement">Two more helicopter loads for an extra $650.</p>
+      <p class="statement">Secure two more jumps for an extra $650.</p>
       <div class="timeline">
         <div><p class="eyebrow">How to join</p><p>Vote yes in the WhatsApp poll by Thursday night.</p></div>
         <div><p class="eyebrow">Not jumping?</p><p>Take the day: beach, surf, kite or a hike.</p></div>
@@ -255,43 +230,27 @@
   </div>
 </section>
 
-<!-- Weekend -->
-<section>
+<!-- Optional activities -->
+<section class="alt" id="activities">
   <div class="wrap">
     <div class="banner"><img src="images/terrace.jpg" alt="Covered terrace at the villa overlooking the bay at sunset" loading="lazy"></div>
-    <div class="two">
-      <div>
-        <p class="eyebrow">Saturday, October 17 · Optional</p>
-        <h3>Water day</h3>
-        <ul class="clean">
-          <li>Morning freedive and snorkel session, led by Kyle</li>
-          <li>Rent snorkel gear in town at P&amp;P Mergulho or Búzios Divers</li>
-          <li>Beach day, then dinner and an evening out together</li>
-        </ul>
-      </div>
-      <div>
-        <p class="eyebrow">Sunday, October 18</p>
-        <h3>Rest day</h3>
-        <ul class="clean">
-          <li>Optional morning scuba dive for certified divers, with P&amp;P Mergulho</li>
-          <li>Free day — do whatever you want</li>
-          <li>Final night together at the villa</li>
-        </ul>
-      </div>
+    <div class="head">
+      <p class="eyebrow">Every day · Weather dependent</p>
+      <h2>Optional activities</h2>
     </div>
+    <p class="statement">The night before, we'll always send you an optional activity for the next day.</p>
   </div>
 </section>
 
 <!-- Every day -->
-<section class="alt">
+<section>
   <div class="wrap">
     <div class="head">
       <p class="eyebrow">All week</p>
       <h2>Every day</h2>
     </div>
-    <div class="cards">
+    <div class="cards three">
       <div class="card"><p class="eyebrow">Mornings</p><h3>Gym</h3><p>We post a time; join if you want. A day pass is about R$30–60.</p></div>
-      <div class="card"><p class="eyebrow">Jump days</p><h3>Beach base camp</h3><p>Shade, water, snacks and drinks between loads. On us.</p></div>
       <div class="card"><p class="eyebrow">Evenings</p><h3>Group dinner</h3><p>A new spot every night. Say you're in on the WhatsApp poll by 3:00 pm. Separate checks.</p></div>
       <div class="card"><p class="eyebrow">Always</p><h3>WhatsApp group</h3><p>The schedule is pinned there, and every poll and update lands there first.</p></div>
     </div>
@@ -329,7 +288,7 @@
 <section class="alt">
   <div class="wrap">
     <div class="head">
-      <p class="eyebrow">Arrival day · Draft times</p>
+      <p class="eyebrow">Arrival day</p>
       <h2>Which van you'll take</h2>
     </div>
     <div class="vans">
